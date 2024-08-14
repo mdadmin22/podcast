@@ -1,0 +1,24 @@
+/* src/components/PlaybackBar.css */
+.playback-bar {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1a1313;
+    color: white;
+    text-align: center;
+    height: max-content;
+  }
+  
+  .playback-controls button {
+    margin: 10px;
+    background: none;
+    border: none;
+
+  }
+  
+  

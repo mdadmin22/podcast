@@ -1,0 +1,12 @@
+.artist-card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+  }
+  
+  .artist-name {
+    font-weight: bold;
+  }
+  

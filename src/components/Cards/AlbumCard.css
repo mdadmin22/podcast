@@ -1,0 +1,20 @@
+.album-card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+  }
+  
+  .album-info {
+    margin-left: 10px;
+  }
+  
+  .album-title {
+    font-weight: bold;
+  }
+  
+  .album-artist {
+    color: #666;
+  }
+  

@@ -1,0 +1,25 @@
+.frame-card {
+    /*display: flex;*/
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    
+  }
+  
+  .artist-name {
+    font-weight: bold;
+  }
+
+.frame-info {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 5px 0;
+    width: 20%;
+}  
+
+.frame-img {
+    width: 70px;
+    height: 70px;
+}

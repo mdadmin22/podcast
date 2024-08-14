@@ -1,9 +1,16 @@
 #root {
-  max-width: 1280px;
+  /*max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  text-align: center;*/
+  width: 100%;
 }
+
+body {
+  background-color: black;
+  color: white; /* Para asegurar que el texto sea visible */
+}
+
 
 .logo {
   height: 6em;
@@ -35,8 +42,32 @@
 
 .card {
   padding: 2em;
+  color: black
 }
 
 .read-the-docs {
   color: #888;
+}
+
+/* src/App.css */
+.app {
+  font-family: Arial, sans-serif;
+  color: #ece4e4;
+}
+
+main {
+  padding: 20px;
+  
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.song-list,
+.album-list,
+.artist-list {
+  display: flex;
+  flex-wrap: wrap
+  
 }
