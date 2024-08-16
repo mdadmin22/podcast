@@ -58,8 +58,10 @@ interface Song {
       { id: 2, title: "Cancion 1", artist: "Teddy Swims", imageUrl: "public/billieJean.png" },
     ],
     Album: [
-      { id: 1, title: "Bohemian Rhapsody", artist: "Freddie Mercury", imageUrl: "public/freddie1.jpeg", name: "freddie" },
-      { id: 1, title: "Bohemian Rhapsody", artist: "Freddie Mercury", imageUrl: "public/freddie2.jpeg", name: "freddie" }
+      { id: 1, title: "Bohemian Rhapsody", artist: "Freddie Mercury", imageUrl: "public/freddie1.jpeg", name: "freddie1" },
+      { id: 2, title: "Bohemian killers", artist: "Freddie Mercury", imageUrl: "public/freddie2.jpeg", name: "freddie2" },
+      { id: 3, title: "Bohemian Sellers", artist: "Freddie Mercury", imageUrl: "public/freddie 3.webp", name: "freddie3" },
+      { id: 4, title: "Bohemian Monkeys", artist: "Freddie Mercury", imageUrl: "public/fredie4.jpg", name: "freddie4" }
     ],
     SideBarProps: []
   };

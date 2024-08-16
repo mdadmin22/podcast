@@ -52,7 +52,7 @@ const App: React.FC = () => {
         <section className="section">
           <h2>ARTISTAS - Similares </h2>
           <div className="artist-list">
-            {data.similarArtists.map((artist) => (
+            {data.Album.map((artist) => (
               <AlbumCard key={artist.id} title={artist.name} artist={artist.artist} id={0} imageUrl={artist.imageUrl} name={artist.name} />
             ))}
           </div>
