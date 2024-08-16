@@ -1,17 +1,15 @@
 import './AlbumCard.css';
 
-
-interface Album {
+type AlbumCardProps = {
   id: number;
   title: string;
   artist: string;
+  imageUrl: string;
+  name: string;
 }
 
-interface AlbumCardProps {
-  album: Album;
-}
 
-const AlbumCard: React.FC<AlbumCardProps> = ({ album }) => {
+function AlbumCard (album: AlbumCardProps)  {
   return (
     <div className="album-card">
       <div className="album-info">
