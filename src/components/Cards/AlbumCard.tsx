@@ -15,9 +15,12 @@ function AlbumCard (album: AlbumCardProps)  {
       <div className="album-info">
         <div className="album-title">{album.title}</div>
         <div className="album-artist">{album.artist}</div>
+        <div className="album-name">{album.name}</div>
+        <img src="public\freddie1.jpeg" alt="Album Imagen" />
+        <img src={album.artist} className='Album-img'/>
       </div>
     </div>
   );
-};
+}
 
 export default AlbumCard;

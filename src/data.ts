@@ -12,6 +12,7 @@ interface Song {
     title: string;
     artist: string;
     imageUrl: string;
+    name: string;
   }
   
   interface Artist {
@@ -23,15 +24,14 @@ interface Song {
 
   
   interface Data {
-    [x: string]: any;
+    [x: string]: unknown;
     listenAgain: Song[];
     quickPicks: Song[];
     recommendedAlbums: Album[];
     similarArtists: Artist[];
-    song: Song[];    
+    song: Song[]; 
+    Album: Album[];   
   }
-
-;
   
   export const data: Data = {
     listenAgain: [
@@ -45,18 +45,20 @@ interface Song {
       { id: 4, title: "Billie Jean", artist: "Michael Jackson", imageUrl: "public/smoothcriminal.png" },
     ],
     recommendedAlbums: [
-      { id: 4, title: "Billie Jean", artist: "Michael Jackson", imageUrl: "public/smoothcriminal.png" },
-      { id: 4, title: "Billie Jean", artist: "Michael Jackson", imageUrl: "public/smoothcriminal.png" },
+      { id: 4, title: "Billie Jean", name: "Mj", artist: "Michael Jackson", imageUrl: "public/smoothcriminal.png" },
+      { id: 4, title: "Billie Jean", name: "MMJJ", artist: "Michael Jackson", imageUrl: "public/smoothcriminal.png" },
     ],
     similarArtists: [
-      { id: 1, name: "Un artista Similar 1", artist:"Nuevo Artista Similar1", imageUrl:"-" },
-      { id: 2, name: "Un artista similar 2", artist:"Nuevo Artista Similar2", imageUrl:"public/smoothcriminal.png" },
+      { id: 1, name: "Un artista Similar 1", artist: "Nuevo Artista Similar1", imageUrl: "-" },
+      { id: 2, name: "Un artista similar 2", artist: "Nuevo Artista Similar2", imageUrl: "public/smoothcriminal.png" },
     ],
     song: [
-      { id: 1, title: "Cancion 1", artist: "Teddy Swims", imageUrl:"public/rockwhityou.png"},
-      { id: 1, title: "Cancion 1", artist: "Teddy Swims", imageUrl:"public/billieJean.png" },
-      
+      { id: 1, title: "Cancion 1", artist: "Teddy Swims", imageUrl: "public/rockwhityou.png" },
+      { id: 1, title: "Cancion 1", artist: "Teddy Swims", imageUrl: "public/billieJean.png" },
     ],
-    
+    Album: [
+      {id: 1, title:"Bohemian Rhapsody" ,artist:"Freddie Mercury" ,imageUrl:"public/freddie1.jpeg" ,name:"freddie"},
+      {id: 1, title:"Bohemian Rhapsody" ,artist:"Freddie Mercury" ,imageUrl:"public/freddie2.jpeg" ,name:"freddie"}
+    ]
   };
  

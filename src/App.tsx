@@ -50,7 +50,7 @@ const App: React.FC = () => {
         </section>
 
         <section className="section">
-          <h2>ARTISTAS  - - Similares </h2>
+          <h2>ARTISTAS - Similares </h2>
           <div className="artist-list">
             {data.similarArtists.map((artist) => (
               <AlbumCard key={artist.id} title={artist.name} artist={artist.artist} id={0} imageUrl={artist.imageUrl} name={artist.name} />
