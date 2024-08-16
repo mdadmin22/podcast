@@ -1,0 +1,35 @@
+[33mcommit 6324e7e618137437c07fd49c8e9f14a01d74dced[m[33m ([m[1;36mHEAD -> [m[1;32mSideBar[m[33m, [m[1;31morigin/SideBar[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: mdadmin22 <marco.frencia@gmail.com>
+Date:   Fri Aug 16 11:15:15 2024 -0300
+
+    agregue css a AlbumCard
+
+[33mcommit 65a89c829460d57fcd35851fcf807f1419d3f50b[m
+Author: mdadmin22 <marco.frencia@gmail.com>
+Date:   Fri Aug 16 10:53:35 2024 -0300
+
+    Freddie Mercury - error referencias Album y Artist
+
+[33mcommit feb0ae75ddd39f8804ff6997d995525153ca3709[m
+Author: Marco Frencia <marco.frencia@gmail.com>
+Date:   Fri Aug 16 00:57:57 2024 -0300
+
+    titulos del playbackBar
+
+[33mcommit 998c9ae1fabab2c344763894d39db573c7a691c9[m
+Author: Marco Frencia <marco.frencia@gmail.com>
+Date:   Fri Aug 16 00:18:09 2024 -0300
+
+    sideBar y Listas Similares
+
+[33mcommit 4115cde44037de95fae1c9a66dac6e42212ae008[m
+Author: Marco Frencia <marco.frencia@gmail.com>
+Date:   Wed Aug 14 00:30:06 2024 -0300
+
+    public
+
+[33mcommit 0e06935fa8e23f574756921cfe6d3dd3472e2c7e[m
+Author: Marco Frencia <marco.frencia@gmail.com>
+Date:   Mon Aug 12 18:04:02 2024 -0300
+
+    Podcast_Frencia

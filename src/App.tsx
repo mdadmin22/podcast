@@ -19,7 +19,7 @@ const App: React.FC = () => {
   return (
     <div className="app">
         <Header />
-        <Sidebar userName="Marco F" userImage="public\perfil react (1).png" />
+        <Sidebar userName="Marco F" userImage="public\perfil react (1).png" onButtonClick={null} />
         <main>
         <section className="section">
           <h2>Escuchar de nuevo</h2>

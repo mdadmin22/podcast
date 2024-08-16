@@ -28,6 +28,7 @@
   .sidebar-menu {
     list-style-type: none;
     padding: 0;
+    border-bottom-color: aquamarine;
   }
   
   .sidebar-menu li {
@@ -43,4 +44,11 @@
   .sidebar-menu a:hover {
     text-decoration: underline;
   }
-  
+
+  .sidebar-controls button {
+    margin: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: aqua;
+
+  }

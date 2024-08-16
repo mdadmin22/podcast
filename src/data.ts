@@ -30,7 +30,8 @@ interface Song {
     recommendedAlbums: Album[];
     similarArtists: Artist[];
     song: Song[]; 
-    Album: Album[];   
+    Album: Album[]; 
+    SideBarProps: SideBarProps[]; 
   }
   
   export const data: Data = {
@@ -57,8 +58,12 @@ interface Song {
       { id: 2, title: "Cancion 1", artist: "Teddy Swims", imageUrl: "public/billieJean.png" },
     ],
     Album: [
-      {id: 1, title:"Bohemian Rhapsody" ,artist:"Freddie Mercury" ,imageUrl:"public/freddie1.jpeg" ,name:"freddie"},
-      {id: 1, title:"Bohemian Rhapsody" ,artist:"Freddie Mercury" ,imageUrl:"public/freddie2.jpeg" ,name:"freddie"}
-    ]
+      { id: 1, title: "Bohemian Rhapsody", artist: "Freddie Mercury", imageUrl: "public/freddie1.jpeg", name: "freddie" },
+      { id: 1, title: "Bohemian Rhapsody", artist: "Freddie Mercury", imageUrl: "public/freddie2.jpeg", name: "freddie" }
+    ],
+    SideBarProps: []
   };
  
+  interface SideBarProps {
+    onButtonClick: () => void;
+  }  
