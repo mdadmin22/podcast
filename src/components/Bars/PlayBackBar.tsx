@@ -13,7 +13,7 @@ const PlaybackBar: React.FC = () => {
         <button><img src="public\skip_next.svg" alt="proximo" /></button>
         </div>
       <div className="FrameCard">
-        <FrameCard title="Artista" imgrtist="public\Rectangle 2.png" artist="Artista" time={"0:15/3:10"}/>
+        <FrameCard title="Artista 1" imgrtist="public\Rectangle 2.png" artist="ART" time={"0:15/3:10"}/>
         </div>  
     </div>
   );
