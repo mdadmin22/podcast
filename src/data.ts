@@ -46,7 +46,7 @@ interface Song {
     ],
     recommendedAlbums: [
       { id: 4, title: "Billie Jean", name: "Mj", artist: "Michael Jackson", imageUrl: "public/smoothcriminal.png" },
-      { id: 4, title: "Billie Jean", name: "MMJJ", artist: "Michael Jackson", imageUrl: "public/smoothcriminal.png" },
+      { id: 7, title: "Billie Jean", name: "MMJJ", artist: "Michael Jackson", imageUrl: "public/smoothcriminal.png" },
     ],
     similarArtists: [
       { id: 1, name: "Un artista Similar 1", artist: "Nuevo Artista Similar1", imageUrl: "-" },
@@ -54,7 +54,7 @@ interface Song {
     ],
     song: [
       { id: 1, title: "Cancion 1", artist: "Teddy Swims", imageUrl: "public/rockwhityou.png" },
-      { id: 1, title: "Cancion 1", artist: "Teddy Swims", imageUrl: "public/billieJean.png" },
+      { id: 2, title: "Cancion 1", artist: "Teddy Swims", imageUrl: "public/billieJean.png" },
     ],
     Album: [
       {id: 1, title:"Bohemian Rhapsody" ,artist:"Freddie Mercury" ,imageUrl:"public/freddie1.jpeg" ,name:"freddie"},

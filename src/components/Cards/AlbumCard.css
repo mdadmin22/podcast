@@ -1,13 +1,15 @@
 .album-card {
     display: flex;
     align-items: center;
-    padding: 10px;
-    border: 1px solid #ddd;
-    margin: 5px 0;
+    flex-direction: row-reverse;
+    padding: 5px;
+    
+    margin: 5px;
   }
   
   .album-info {
     margin-left: 10px;
+    margin-right: 5px;
   }
   
   .album-title {
